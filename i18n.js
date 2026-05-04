@@ -77,7 +77,7 @@
 
       'dispatch.no': 'Notatka Terenowa № 04 — Współrzędne łączności',
       'dispatch.h2': 'Wyślij depeszę.',
-      'dispatch.kicker': 'Pisz w sprawach partnerstw, prasy, kariery albo pierwszych wdrożeń platformy. Odpowiadamy na wszystko.',
+      'dispatch.kicker': 'Pisz w sprawach partnerstw, współpracy R&D, kariery lub wsparcia — przez email lub telefon. Odpowiadamy na wszystko.',
       'dispatch.card.label': 'Triangulacja',
       'dispatch.card.sub': 'Kraków, Rzeczpospolita Polska',
       'dispatch.ch1.label': 'Spółka operacyjna',
@@ -162,7 +162,7 @@
 
       'dispatch.no': 'Польова Нотатка № 04 — Координати Зв’язку',
       'dispatch.h2': 'Надішли депешу.',
-      'dispatch.kicker': 'Пиши про партнерства, пресу, вакансії чи перші розгортання платформи. Відповідаємо всім.',
+      'dispatch.kicker': 'Пиши про партнерства, співпрацю R&D, вакансії чи підтримку — електронною поштою або телефоном. Відповідаємо всім.',
       'dispatch.card.label': 'Тріангуляція',
       'dispatch.card.sub': 'Краків, Республіка Польща',
       'dispatch.ch1.label': 'Операційна компанія',
