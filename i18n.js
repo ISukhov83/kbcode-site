@@ -31,7 +31,7 @@
       'hero.m2.value': 'Telepresence · obraz na żywo',
       'hero.m3.label': 'Pierwszy projekt',
       'hero.m3.value': 'Avatar Platform',
-      'hero.figcaption': '<span class="fig-no">Rys. I.</span> Mappa Mundi — projekcja równokątna, w stylu dawnych atlasów. Punkty oznaczają orientacyjny zasięg, nie rzeczywiste wdrożenia.',
+      'hero.figcaption': '<span class="fig-no">Rys. I.</span> Mappa Mundi.',
 
       'globe.north': 'N',
 
@@ -117,7 +117,7 @@
       'hero.m2.value': 'Телеприсутність · живе відео',
       'hero.m3.label': 'Перший проєкт',
       'hero.m3.value': 'Avatar Platform',
-      'hero.figcaption': '<span class="fig-no">Рис. I.</span> Mappa Mundi — рівнопрямокутна проєкція, у стилі давніх атласів. Позначки показують орієнтовне покриття, а не активні розгортання.',
+      'hero.figcaption': '<span class="fig-no">Рис. I.</span> Mappa Mundi.',
 
       'globe.north': 'Пн',
 
