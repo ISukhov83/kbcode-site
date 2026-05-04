@@ -455,15 +455,12 @@ img.brand-mark {
   margin: 0 auto;
   color: var(--ink);
   position: relative;
-}
-.map-bg {
-  position: absolute;
-  inset: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: contain;
-  display: block;
-  mix-blend-mode: multiply;
+  background-color: var(--paper);
+  background-image: url('world-map.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-blend-mode: multiply;
 }
 .globe {
   position: absolute;
