@@ -130,7 +130,11 @@ button { font: inherit; color: inherit; background: none; border: 0; cursor: poi
   color: var(--ink);
   flex: none;
 }
-
+img.brand-mark {
+  border-radius: 50%;
+  object-fit: cover;
+  mix-blend-mode: multiply;
+}
 .brand-mark.small { width: 28px; height: 28px; }
 
 .brand-word {
@@ -526,25 +530,6 @@ button { font: inherit; color: inherit; background: none; border: 0; cursor: poi
 .note-head {
   margin-bottom: clamp(2.5rem, 5vw, 4rem);
   max-width: 60ch;
-}
-.studio-head {
-  display: flex;
-  align-items: flex-start;
-  gap: 1.4rem;
-  max-width: 70ch;
-}
-.studio-mark {
-  width: 96px;
-  height: 96px;
-  border-radius: 50%;
-  flex: none;
-  object-fit: cover;
-  mix-blend-mode: multiply;
-  margin-top: 0.4rem;
-}
-@media (max-width: 560px) {
-  .studio-head { gap: 1rem; }
-  .studio-mark { width: 72px; height: 72px; }
 }
 .note-no {
   font-family: var(--font-mono);
