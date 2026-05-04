@@ -36,7 +36,7 @@
       'globe.north': 'N',
 
       'studio.no': 'Notatka Terenowa № 01',
-      'studio.h2': 'Małe studio<br>o dalekim zasięgu.',
+      'studio.h2': 'Małe studio<br>z odległym horyzontem.',
       'studio.pullquote': '<span class="quote-mark" aria-hidden="true">„</span> Jesteśmy <em>KBCODE Poland</em> — zespołem specjalistów IT, który tworzy produkt zmieniający świat. <cite>— Manifest studia, 2024</cite>',
       'studio.prose1': 'Założone w Krakowie, KBCODE działa na styku telepresence, kartografii i gry — tworzymy oprogramowanie, które pozwala jednej osobie być w miejscu drugiej, gdziekolwiek na mapie. Specjalizujemy się w systemach rozproszonych, wideo o niskich opóźnieniach i interfejsach człowiek‑maszyna, które łączą jedno z drugim.',
       'studio.prose2': 'Studio jest małe z wyboru. Wolimy dyscyplinę filozofii <em>mniej rzeczy, lepiej zrobionych</em>: jeden pierwszy produkt, dopracowywany latami, zanim wytyczymy drugą drogę.',
@@ -122,7 +122,7 @@
       'globe.north': 'Пн',
 
       'studio.no': 'Польова Нотатка № 01',
-      'studio.h2': 'Маленька студія<br>з далекими орієнтирами.',
+      'studio.h2': 'Маленька студія<br>з далеким горизонтом.',
       'studio.pullquote': '<span class="quote-mark" aria-hidden="true">„</span> Ми — <em>KBCODE Poland</em>, команда IT‑професіоналів, що створює продукт, який змінить світ. <cite>— Маніфест студії, 2024</cite>',
       'studio.prose1': 'Заснована у Кракові, KBCODE працює на перетині телеприсутності, картографії та гри — будуємо софт, що дозволяє одній людині бути замість іншої будь‑де на мапі. Наші спеціалізації — розподілені системи, відео з низькою затримкою та інтерфейси «людина–машина», що тримають це разом.',
       'studio.prose2': 'Студія мала за задумом. Ми надаємо перевагу дисципліні підходу <em>менше речей, краще зроблених</em>: один перший продукт, відточуваний роками, перш ніж буде прокладено другий маршрут.',
