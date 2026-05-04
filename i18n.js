@@ -26,7 +26,7 @@
       'hero.cta.primary': 'Otwórz atlas',
       'hero.cta.ghost': 'Wyślij depeszę',
       'hero.m1.label': 'Założono',
-      'hero.m1.value': 'Kraków · 2024',
+      'hero.m1.value': 'Kraków · 2025',
       'hero.m2.label': 'Dziedzina',
       'hero.m2.value': 'Telepresence · obraz na żywo',
       'hero.m3.label': 'Pierwszy projekt',
@@ -37,7 +37,7 @@
 
       'studio.no': 'Notatka Terenowa № 01',
       'studio.h2': 'Małe studio<br>z odległym horyzontem.',
-      'studio.pullquote': '<span class="quote-mark" aria-hidden="true">„</span> Jesteśmy <em>KBCODE Poland</em> — zespołem specjalistów IT, który tworzy produkt zmieniający świat. <cite>— Manifest studia, 2024</cite>',
+      'studio.pullquote': '<span class="quote-mark" aria-hidden="true">„</span> Jesteśmy <em>KBCODE Poland</em> — zespołem specjalistów IT, który tworzy produkt zmieniający świat. <cite>— Manifest studia, 2025</cite>',
       'studio.prose1': 'Założone w Krakowie, KBCODE działa na styku telepresence, kartografii i gry — tworzymy oprogramowanie, które pozwala jednej osobie być w miejscu drugiej, gdziekolwiek na mapie. Specjalizujemy się w systemach rozproszonych, wideo o niskich opóźnieniach i interfejsach człowiek‑maszyna, które łączą jedno z drugim.',
       'studio.prose2': 'Studio jest małe z wyboru. Wolimy dyscyplinę filozofii <em>mniej rzeczy, lepiej zrobionych</em>: jeden pierwszy produkt, dopracowywany latami, zanim wytyczymy drugą drogę.',
       'studio.l1.label': 'Nazwa prawna',
@@ -87,7 +87,7 @@
       'dispatch.ch4.label': 'Kanał — R&D',
       'dispatch.ch5.label': 'Telefon',
 
-      'colophon.line': 'Mapujemy obecność od MMXXIV.',
+      'colophon.line': 'Mapujemy obecność od MMXXV.',
       'colophon.setIn': 'Skład',
       'colophon.drawnIn': 'Wykonano w',
       'colophon.drawnInValue': 'Kraków, Polska — 50,0647°N&nbsp;19,9450°E',
@@ -112,7 +112,7 @@
       'hero.cta.primary': 'Відкрити атлас',
       'hero.cta.ghost': 'Надіслати депешу',
       'hero.m1.label': 'Засновано',
-      'hero.m1.value': 'Краків · 2024',
+      'hero.m1.value': 'Краків · 2025',
       'hero.m2.label': 'Напрям',
       'hero.m2.value': 'Телеприсутність · живе відео',
       'hero.m3.label': 'Перший проєкт',
@@ -123,7 +123,7 @@
 
       'studio.no': 'Польова Нотатка № 01',
       'studio.h2': 'Маленька студія<br>з далеким горизонтом.',
-      'studio.pullquote': '<span class="quote-mark" aria-hidden="true">„</span> Ми — <em>KBCODE Poland</em>, команда IT‑професіоналів, що створює продукт, який змінить світ. <cite>— Маніфест студії, 2024</cite>',
+      'studio.pullquote': '<span class="quote-mark" aria-hidden="true">„</span> Ми — <em>KBCODE Poland</em>, команда IT‑професіоналів, що створює продукт, який змінить світ. <cite>— Маніфест студії, 2025</cite>',
       'studio.prose1': 'Заснована у Кракові, KBCODE працює на перетині телеприсутності, картографії та гри — будуємо софт, що дозволяє одній людині бути замість іншої будь‑де на мапі. Наші спеціалізації — розподілені системи, відео з низькою затримкою та інтерфейси «людина–машина», що тримають це разом.',
       'studio.prose2': 'Студія мала за задумом. Ми надаємо перевагу дисципліні підходу <em>менше речей, краще зроблених</em>: один перший продукт, відточуваний роками, перш ніж буде прокладено другий маршрут.',
       'studio.l1.label': 'Юридична назва',
@@ -173,7 +173,7 @@
       'dispatch.ch4.label': 'Канал — R&D',
       'dispatch.ch5.label': 'Телефон',
 
-      'colophon.line': 'Картуємо присутність із MMXXIV.',
+      'colophon.line': 'Картуємо присутність із MMXXV.',
       'colophon.setIn': 'Набрано',
       'colophon.drawnIn': 'Накреслено в',
       'colophon.drawnInValue': 'Краків, Польща — 50,0647°пн.&nbsp;19,9450°сх.',
