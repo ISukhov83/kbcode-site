@@ -402,12 +402,10 @@ button { font: inherit; color: inherit; background: none; border: 0; cursor: poi
 }
 .globe {
   width: min(100%, 480px);
-  aspect-ratio: 1 / 1;
   height: auto;
   margin: 0 auto;
   color: var(--ink);
   display: block;
-  overflow: visible;
 }
 .globe-spin { transform-origin: center; }
 .pins g circle:first-child {
