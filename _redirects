@@ -1,0 +1,2 @@
+# Force apex domain (drop www)
+https://www.kbcode.pl/*  https://kbcode.pl/:splat  301

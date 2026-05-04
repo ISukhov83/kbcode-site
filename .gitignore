@@ -1,0 +1,23 @@
+# Local tooling state
+.claude/
+.playwright-mcp/
+
+# Debug screenshots from Playwright sessions
+debug-*.png
+i18n-*.png
+kbcode-desktop-*.png
+kbcode-hero-*.png
+kbcode-instrument.png
+kbcode-mobile.png
+kbcode-tiers.png
+
+# Reference and planning artefacts (kept locally, not shipped)
+*.mhtml
+DEPLOY_PLAN.md
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+*.swp
+.vscode/
+.idea/
