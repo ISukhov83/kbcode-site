@@ -402,20 +402,14 @@ button { font: inherit; color: inherit; background: none; border: 0; cursor: poi
 }
 .globe {
   width: min(100%, 480px);
+  aspect-ratio: 1 / 1;
   height: auto;
   margin: 0 auto;
   color: var(--ink);
   display: block;
-  filter: drop-shadow(0 18px 30px rgba(26,36,52,0.10));
+  overflow: visible;
 }
 .globe-spin { transform-origin: center; }
-.compass {
-  animation: compassSpin 120s linear infinite;
-  transform-origin: 220px 220px;
-}
-@keyframes compassSpin {
-  to { transform: translate(220px, 220px) rotate(360deg); }
-}
 .pins g circle:first-child {
   animation: pulseDot 3.5s ease-in-out infinite;
 }
