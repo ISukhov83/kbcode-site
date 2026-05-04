@@ -3,12 +3,12 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>KBCODE Poland — Cartographers of Presence</title>
-  <meta name="description" content="KBCODE Poland is a software studio in Kraków building Avatar Platform — a real-time human-telepresence network that turns any street, summit, or seashore into a place you can visit from anywhere." />
+  <title data-i18n="meta.title">KBCODE Poland — Cartographers of Presence</title>
+  <meta name="description" data-i18n-attr="content:meta.description" content="KBCODE Poland is a software studio in Kraków building Avatar Platform — a real-time human-telepresence network that turns any street, summit, or seashore into a place you can visit from anywhere." />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Albert+Sans:wght@300;400;500;600&family=Fraunces:ital,opsz,wght@0,9..144,300..700;1,9..144,300..700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="styles.css?v=9" />
+  <link rel="stylesheet" href="styles.css?v=10" />
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='13' fill='none' stroke='%231A2434' stroke-width='1.2'/%3E%3Cpath d='M16 3 L18 16 L16 29 L14 16 Z' fill='%23B8783D'/%3E%3Cpath d='M3 16 L16 14 L29 16 L16 18 Z' fill='%231A2434'/%3E%3C/svg%3E" />
 </head>
 <body>
@@ -33,18 +33,27 @@
         </svg>
         <span class="brand-word">KBCODE</span>
         <span class="brand-divider"></span>
-        <span class="brand-locale">Kraków · 50.0647°N&nbsp;19.9450°E</span>
+        <span class="brand-locale" data-i18n="masthead.locale">Kraków · 50.0647°N&nbsp;19.9450°E</span>
       </a>
-      <nav class="nav" aria-label="Primary">
-        <a href="#studio">Studio</a>
-        <a href="#instrument">Instrument</a>
-        <a href="#apparatus">Apparatus</a>
-        <a href="#dispatch" class="nav-cta">Send a dispatch <span aria-hidden="true">↗</span></a>
-      </nav>
+      <div class="nav-cluster">
+        <nav class="nav" aria-label="Primary">
+          <a href="#studio" data-i18n="nav.studio">Studio</a>
+          <a href="#instrument" data-i18n="nav.instrument">Instrument</a>
+          <a href="#apparatus" data-i18n="nav.apparatus">Apparatus</a>
+          <a href="#dispatch" class="nav-cta"><span data-i18n="nav.dispatch">Send a dispatch</span> <span aria-hidden="true">↗</span></a>
+        </nav>
+        <div class="lang-switch" role="group" aria-label="Language">
+          <button type="button" data-lang="en" aria-pressed="true">EN</button>
+          <span aria-hidden="true">·</span>
+          <button type="button" data-lang="pl" aria-pressed="false">PL</button>
+          <span aria-hidden="true">·</span>
+          <button type="button" data-lang="uk" aria-pressed="false">UK</button>
+        </div>
+      </div>
     </div>
     <div class="rule" aria-hidden="true">
       <span class="rule-line"></span>
-      <span class="rule-tick">— FIELD CIRCULAR № 001 / MMXXVI / FOR INTERNATIONAL DISTRIBUTION —</span>
+      <span class="rule-tick" data-i18n="masthead.tick">— FIELD CIRCULAR № 001 / MMXXVI / FOR INTERNATIONAL DISTRIBUTION —</span>
       <span class="rule-line"></span>
     </div>
   </header>
@@ -55,26 +64,26 @@
     <section class="hero">
       <div class="shell hero-grid">
         <div class="hero-text">
-          <p class="eyebrow"><span class="dot"></span>Compiled in Kraków, Polska — Edition One</p>
-          <h1 class="display">
+          <p class="eyebrow"><span class="dot"></span><span data-i18n="hero.eyebrow">Compiled in Kraków, Polska — Edition One</span></p>
+          <h1 class="display" data-i18n="hero.h1">
             Charting the world<br>
             for those who <em>cannot</em><br>
             roam it themselves.
           </h1>
-          <p class="lede">
+          <p class="lede" data-i18n="hero.lede">
             <span class="drop">K</span>BCODE Poland is a software studio building <strong>Avatar Platform</strong> — a real-time human-telepresence network that turns any street, summit, or seashore into a place you can visit from anywhere on Earth.
           </p>
           <div class="cta-row">
             <a class="btn btn-primary" href="#instrument">
-              <span>Open the atlas</span>
+              <span data-i18n="hero.cta.primary">Open the atlas</span>
               <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h16m-6-6 6 6-6 6" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
             </a>
-            <a class="btn btn-ghost" href="#dispatch">Send a dispatch</a>
+            <a class="btn btn-ghost" href="#dispatch" data-i18n="hero.cta.ghost">Send a dispatch</a>
           </div>
           <dl class="hero-metrics">
-            <div><dt>Founded</dt><dd>Kraków · 2024</dd></div>
-            <div><dt>Discipline</dt><dd>Telepresence · live video · AI</dd></div>
-            <div><dt>Inaugural project</dt><dd>Avatar Platform</dd></div>
+            <div><dt data-i18n="hero.m1.label">Founded</dt><dd data-i18n="hero.m1.value">Kraków · 2024</dd></div>
+            <div><dt data-i18n="hero.m2.label">Discipline</dt><dd data-i18n="hero.m2.value">Telepresence · live video · AI</dd></div>
+            <div><dt data-i18n="hero.m3.label">Inaugural project</dt><dd data-i18n="hero.m3.value">Avatar Platform</dd></div>
           </dl>
         </div>
 
@@ -83,20 +92,16 @@
           <svg class="globe" viewBox="-300 -300 600 600" preserveAspectRatio="xMidYMid meet">
             <g class="globe-spin" transform="rotate(-23.5)">
               <circle r="250" fill="rgba(26, 36, 52, 0.05)" stroke="currentColor" stroke-width="1" vector-effect="non-scaling-stroke"/>
-              <!-- latitudes -->
               <ellipse rx="250" ry="40" fill="none" stroke="currentColor" stroke-width="0.4"/>
               <ellipse rx="250" ry="100" fill="none" stroke="currentColor" stroke-width="0.4"/>
               <ellipse rx="250" ry="170" fill="none" stroke="currentColor" stroke-width="0.4"/>
               <ellipse rx="250" ry="220" fill="none" stroke="currentColor" stroke-width="0.4"/>
-              <!-- longitudes -->
               <ellipse rx="40"  ry="250" fill="none" stroke="currentColor" stroke-width="0.4"/>
               <ellipse rx="100" ry="250" fill="none" stroke="currentColor" stroke-width="0.4"/>
               <ellipse rx="170" ry="250" fill="none" stroke="currentColor" stroke-width="0.4"/>
               <ellipse rx="220" ry="250" fill="none" stroke="currentColor" stroke-width="0.4"/>
-              <!-- equator emphasised -->
               <line x1="-250" y1="0" x2="250" y2="0" stroke="currentColor" stroke-width="0.7" stroke-dasharray="2 4"/>
               <line x1="0" y1="-250" x2="0" y2="250" stroke="currentColor" stroke-width="0.7" stroke-dasharray="2 4"/>
-              <!-- city pins -->
               <g class="pins">
                 <g transform="translate(35,-110)"><circle r="3" fill="var(--brass)"/><circle r="9" fill="none" stroke="var(--brass)" stroke-width="0.6" opacity="0.7"/></g>
                 <g transform="translate(-140,-40)"><circle r="3" fill="var(--brass)"/><circle r="9" fill="none" stroke="var(--brass)" stroke-width="0.6" opacity="0.7"/></g>
@@ -105,24 +110,22 @@
                 <g transform="translate(90,90)"><circle r="3" fill="var(--brass)"/><circle r="9" fill="none" stroke="var(--brass)" stroke-width="0.6" opacity="0.7"/></g>
               </g>
             </g>
-            <!-- compass rose, fixed (does not spin) -->
             <g class="compass" transform="translate(220, 220)">
               <circle r="34" fill="var(--paper)" stroke="currentColor" stroke-width="0.5"/>
               <circle r="26" fill="none" stroke="currentColor" stroke-width="0.4"/>
               <path d="M0 -30 L3 -3 L30 0 L3 3 L0 30 L-3 3 L-30 0 L-3 -3 Z" fill="currentColor"/>
               <path d="M0 -22 L2 -2 L22 0 L2 2 L0 22 L-2 2 L-22 0 L-2 -2 Z" fill="var(--paper)" stroke="currentColor" stroke-width="0.5" transform="rotate(45)"/>
-              <text y="-37" text-anchor="middle" font-family="Fraunces" font-size="9" fill="currentColor">N</text>
+              <text y="-37" text-anchor="middle" font-family="Fraunces" font-size="9" fill="currentColor" data-i18n="globe.north">N</text>
             </g>
           </svg>
           </div>
-          <figcaption>
+          <figcaption data-i18n="hero.figcaption">
             <span class="fig-no">Fig. I.</span>
             Orthographic projection — axial tilt 23.5°. Pinpoints denote indicative coverage, not active deployments.
           </figcaption>
         </figure>
       </div>
 
-      <!-- Coordinate ticker -->
       <div class="coord-ticker" aria-hidden="true">
         <div class="ticker-track">
           <span>50.0647°N · 19.9450°E — Kraków</span><span>·</span>
@@ -135,7 +138,6 @@
           <span>−22.9068°S · 43.1729°W — Rio de Janeiro</span><span>·</span>
           <span>64.1466°N · 21.9426°W — Reykjavík</span><span>·</span>
           <span>27.9881°N · 86.9250°E — Sagarmāthā</span><span>·</span>
-          <!-- duplicate for seamless scroll -->
           <span>50.0647°N · 19.9450°E — Kraków</span><span>·</span>
           <span>35.6762°N · 139.6503°E — Tōkyō</span><span>·</span>
           <span>40.7128°N · 74.0060°W — New York</span><span>·</span>
@@ -154,28 +156,28 @@
     <section class="note" id="studio">
       <div class="shell">
         <header class="note-head">
-          <p class="note-no">Field Note № 01</p>
-          <h2 class="display">A small studio<br>with long bearings.</h2>
+          <p class="note-no" data-i18n="studio.no">Field Note № 01</p>
+          <h2 class="display" data-i18n="studio.h2">A small studio<br>with long bearings.</h2>
         </header>
 
         <div class="note-grid">
-          <blockquote class="pullquote">
+          <blockquote class="pullquote" data-i18n="studio.pullquote">
             <span class="quote-mark" aria-hidden="true">“</span>
             We are <em>KBCODE Poland</em> — a team of IT professionals creating a product that will change the world.
             <cite>— Studio manifesto, 2024</cite>
           </blockquote>
 
           <div class="note-prose">
-            <p>Founded in Kraków, KBCODE practises at the intersection of telepresence, cartography, and play — building software that lets one person stand in for another, anywhere on the map. Our specialisations are distributed systems, low-latency video, and the human-machine interfaces that bind them together.</p>
-            <p>The studio is small by intent. We prefer the discipline of a <em>fewer-things-better-made</em> philosophy: one inaugural product, refined over years, before any second route is charted.</p>
+            <p data-i18n="studio.prose1">Founded in Kraków, KBCODE practises at the intersection of telepresence, cartography, and play — building software that lets one person stand in for another, anywhere on the map. Our specialisations are distributed systems, low-latency video, and the human-machine interfaces that bind them together.</p>
+            <p data-i18n="studio.prose2">The studio is small by intent. We prefer the discipline of a <em>fewer-things-better-made</em> philosophy: one inaugural product, refined over years, before any second route is charted.</p>
           </div>
 
           <dl class="ledger">
-            <div><dt>Legal name</dt><dd>KBCODE sp. z o.o.</dd></div>
-            <div><dt>Established</dt><dd>2024</dd></div>
-            <div><dt>Bureau</dt><dd>Kraków, Polska</dd></div>
-            <div><dt>Inaugural project</dt><dd>Avatar Platform</dd></div>
-            <div><dt>Status</dt><dd><span class="pulse"></span> In development</dd></div>
+            <div><dt data-i18n="studio.l1.label">Legal name</dt><dd>KBCODE sp. z o.o.</dd></div>
+            <div><dt data-i18n="studio.l2.label">Established</dt><dd>2024</dd></div>
+            <div><dt data-i18n="studio.l3.label">Bureau</dt><dd data-i18n="studio.l3.value">Kraków, Polska</dd></div>
+            <div><dt data-i18n="studio.l4.label">Inaugural project</dt><dd>Avatar Platform</dd></div>
+            <div><dt data-i18n="studio.l5.label">Status</dt><dd><span class="pulse"></span> <span data-i18n="studio.l5.value">In development</span></dd></div>
           </dl>
         </div>
       </div>
@@ -185,34 +187,34 @@
     <section class="note note-dark" id="instrument">
       <div class="shell">
         <header class="note-head">
-          <p class="note-no">Field Note № 02 — The Instrument</p>
-          <h2 class="display"><em>Avatar Platform.</em></h2>
-          <p class="kicker">Explore the world like never before.</p>
+          <p class="note-no" data-i18n="instrument.no">Field Note № 02 — The Instrument</p>
+          <h2 class="display"><em data-i18n="instrument.h2">Avatar Platform.</em></h2>
+          <p class="kicker" data-i18n="instrument.kicker">Explore the world like never before.</p>
         </header>
 
         <div class="instrument-grid">
           <div class="instrument-prose">
-            <p>Avatar Platform is a marketplace and live-streaming network that joins two parties separated by thousands of kilometres into a single, shared moment. An Operator opens the world atlas, books an Avatar — a real human on the ground — and is then carried through a Tōkyō alley, a Patagonian fjord, or the lobby of a museum after closing hours, in real time, through their phone.</p>
-            <p>It is travel without the borders, the visas, the carbon, or the budget. It is a way to be present in places one's own body cannot reach.</p>
+            <p data-i18n="instrument.prose1">Avatar Platform is a marketplace and live-streaming network that joins two parties separated by thousands of kilometres into a single, shared moment. An Operator opens the world atlas, books an Avatar — a real human on the ground — and is then carried through a Tōkyō alley, a Patagonian fjord, or the lobby of a museum after closing hours, in real time, through their phone.</p>
+            <p data-i18n="instrument.prose2">It is travel without the borders, the visas, the carbon, or the budget. It is a way to be present in places one's own body cannot reach.</p>
           </div>
 
           <ol class="triptych">
             <li>
               <span class="roman">I.</span>
-              <h3>The Operator</h3>
-              <p>Directs the journey. Sees what the Avatar sees. Hears what the Avatar hears. Steers gaze with the right thumb, locomotion with the left.</p>
+              <h3 data-i18n="instrument.role1.title">The Operator</h3>
+              <p data-i18n="instrument.role1.body">Directs the journey. Sees what the Avatar sees. Hears what the Avatar hears. Steers gaze with the right thumb, locomotion with the left.</p>
               <svg class="role-icon" viewBox="0 0 60 60" aria-hidden="true"><rect x="14" y="6" width="32" height="48" rx="4" fill="none" stroke="currentColor" stroke-width="1"/><circle cx="30" cy="46" r="2.4" fill="currentColor"/><rect x="20" y="14" width="20" height="26" fill="none" stroke="currentColor" stroke-width="0.6"/><circle cx="30" cy="27" r="3.5" fill="currentColor"/><circle cx="30" cy="27" r="9" fill="none" stroke="currentColor" stroke-width="0.4"/></svg>
             </li>
             <li>
               <span class="roman">II.</span>
-              <h3>The Avatar</h3>
-              <p>The body on location, equipped, vetted, paid by the platform. Receives the Operator's prompts; relays scene, sound, and signage.</p>
+              <h3 data-i18n="instrument.role2.title">The Avatar</h3>
+              <p data-i18n="instrument.role2.body">The body on location, equipped, vetted, paid by the platform. Receives the Operator's prompts; relays scene, sound, and signage.</p>
               <svg class="role-icon" viewBox="0 0 60 60" aria-hidden="true"><circle cx="30" cy="20" r="8" fill="none" stroke="currentColor" stroke-width="1"/><path d="M14 54 Q30 30 46 54" fill="none" stroke="currentColor" stroke-width="1"/><circle cx="44" cy="22" r="4" fill="none" stroke="currentColor" stroke-width="0.6"/><path d="M44 22 L52 14" stroke="currentColor" stroke-width="0.6"/></svg>
             </li>
             <li>
               <span class="roman">III.</span>
-              <h3>The Platform</h3>
-              <p>Secure two-way wallet, AI translation, sub-second video relay, route planning, vetting and dispute. The unseen apparatus binding the pair.</p>
+              <h3 data-i18n="instrument.role3.title">The Platform</h3>
+              <p data-i18n="instrument.role3.body">Secure two-way wallet, AI translation, sub-second video relay, route planning, vetting and dispute. The unseen apparatus binding the pair.</p>
               <svg class="role-icon" viewBox="0 0 60 60" aria-hidden="true"><circle cx="30" cy="30" r="22" fill="none" stroke="currentColor" stroke-width="1"/><circle cx="30" cy="30" r="14" fill="none" stroke="currentColor" stroke-width="0.6"/><circle cx="30" cy="30" r="6" fill="none" stroke="currentColor" stroke-width="0.6"/><circle cx="30" cy="30" r="1.6" fill="currentColor"/><path d="M30 8 V52 M8 30 H52" stroke="currentColor" stroke-width="0.4" stroke-dasharray="1.5 3"/></svg>
             </li>
           </ol>
@@ -224,41 +226,41 @@
     <section class="note" id="apparatus">
       <div class="shell">
         <header class="note-head">
-          <p class="note-no">Field Note № 03 — The Apparatus</p>
-          <h2 class="display">Inside the kit.</h2>
-          <p class="kicker">Six instruments, one expedition.</p>
+          <p class="note-no" data-i18n="apparatus.no">Field Note № 03 — The Apparatus</p>
+          <h2 class="display" data-i18n="apparatus.h2">Inside the kit.</h2>
+          <p class="kicker" data-i18n="apparatus.kicker">Six instruments, one expedition.</p>
         </header>
 
         <ul class="features">
           <li>
             <span class="feat-no">01</span>
-            <h4>Interactive world atlas</h4>
-            <p>A filterable globe of avatars — by language, specialism, rating, and current availability. Pre-book your guide weeks ahead, or commission one in the next quarter-hour.</p>
+            <h4 data-i18n="apparatus.f1.title">Interactive world atlas</h4>
+            <p data-i18n="apparatus.f1.body">A filterable globe of avatars — by language, specialism, rating, and current availability. Pre-book your guide weeks ahead, or commission one in the next quarter-hour.</p>
           </li>
           <li>
             <span class="feat-no">02</span>
-            <h4>Real-time HD relay</h4>
-            <p>Sub-second video and binaural audio engineered for the long way around. The Avatar's senses become yours, with a latency you stop noticing.</p>
+            <h4 data-i18n="apparatus.f2.title">Real-time HD relay</h4>
+            <p data-i18n="apparatus.f2.body">Sub-second video and binaural audio engineered for the long way around. The Avatar's senses become yours, with a latency you stop noticing.</p>
           </li>
           <li>
             <span class="feat-no">03</span>
-            <h4>Twin-thumb controls</h4>
-            <p>A control language borrowed from the games room. Left thumb steers, right thumb gazes — fluent in minutes, expressive for hours.</p>
+            <h4 data-i18n="apparatus.f3.title">Twin-thumb controls</h4>
+            <p data-i18n="apparatus.f3.body">A control language borrowed from the games room. Left thumb steers, right thumb gazes — fluent in minutes, expressive for hours.</p>
           </li>
           <li>
             <span class="feat-no">04</span>
-            <h4>AI co-pilot</h4>
-            <p>Live speech translation, sign and object recognition, route hints when the Avatar wavers. Quiet by default; eloquent on demand.</p>
+            <h4 data-i18n="apparatus.f4.title">AI co-pilot</h4>
+            <p data-i18n="apparatus.f4.body">Live speech translation, sign and object recognition, route hints when the Avatar wavers. Quiet by default; eloquent on demand.</p>
           </li>
           <li>
             <span class="feat-no">05</span>
-            <h4>Vetted ledger</h4>
-            <p>Encrypted two-way wallet, rated avatars, dispute resolution, tiered commissions that reward sustained excellence on the supply side.</p>
+            <h4 data-i18n="apparatus.f5.title">Vetted ledger</h4>
+            <p data-i18n="apparatus.f5.body">Encrypted two-way wallet, rated avatars, dispute resolution, tiered commissions that reward sustained excellence on the supply side.</p>
           </li>
           <li>
             <span class="feat-no">06</span>
-            <h4>Field equipment</h4>
-            <p>Stabilised cameras, drones, kayaks, bicycles for the harder maps — provisioned through the platform when the geography demands it.</p>
+            <h4 data-i18n="apparatus.f6.title">Field equipment</h4>
+            <p data-i18n="apparatus.f6.body">Stabilised cameras, drones, kayaks, bicycles for the harder maps — provisioned through the platform when the geography demands it.</p>
           </li>
         </ul>
       </div>
@@ -268,16 +270,16 @@
     <section class="note note-dispatch" id="dispatch">
       <div class="shell dispatch-grid">
         <header class="note-head">
-          <p class="note-no">Field Note № 04 — Communication Coordinates</p>
-          <h2 class="display">Send a dispatch.</h2>
-          <p class="kicker">Write to us about partnerships, press, careers, or to enquire about the platform's first deployments. We answer everything.</p>
+          <p class="note-no" data-i18n="dispatch.no">Field Note № 04 — Communication Coordinates</p>
+          <h2 class="display" data-i18n="dispatch.h2">Send a dispatch.</h2>
+          <p class="kicker" data-i18n="dispatch.kicker">Write to us about partnerships, press, careers, or to enquire about the platform's first deployments. We answer everything.</p>
         </header>
 
         <div class="card-stack">
           <div class="card card-coords">
-            <p class="card-label">Triangulating</p>
+            <p class="card-label" data-i18n="dispatch.card.label">Triangulating</p>
             <p class="card-coord">50.0647°<span>N</span> &nbsp; 19.9450°<span>E</span></p>
-            <p class="card-sub">Kraków, Rzeczpospolita Polska</p>
+            <p class="card-sub" data-i18n="dispatch.card.sub">Kraków, Rzeczpospolita Polska</p>
             <svg class="card-art" viewBox="0 0 200 100" aria-hidden="true">
               <g fill="none" stroke="currentColor" stroke-width="0.4" opacity="0.55">
                 <path d="M0 50 Q50 10 100 50 T200 50"/>
@@ -294,23 +296,23 @@
 
           <dl class="card card-channels">
             <div>
-              <dt>Operating company</dt>
+              <dt data-i18n="dispatch.ch1.label">Operating company</dt>
               <dd>KBCODE&nbsp;sp.&nbsp;z&nbsp;o.o.</dd>
             </div>
             <div>
-              <dt>Channel — general</dt>
+              <dt data-i18n="dispatch.ch2.label">Channel — general</dt>
               <dd><a href="mailto:hello@kbcode.pl">hello@kbcode.pl</a></dd>
             </div>
             <div>
-              <dt>Channel — press</dt>
+              <dt data-i18n="dispatch.ch3.label">Channel — press</dt>
               <dd><a href="mailto:press@kbcode.pl">press@kbcode.pl</a></dd>
             </div>
             <div>
-              <dt>Channel — careers</dt>
+              <dt data-i18n="dispatch.ch4.label">Channel — careers</dt>
               <dd><a href="mailto:careers@kbcode.pl">careers@kbcode.pl</a></dd>
             </div>
             <div>
-              <dt>Indiegogo</dt>
+              <dt data-i18n="dispatch.ch5.label">Indiegogo</dt>
               <dd><a href="https://www.indiegogo.com/creators/kbcodepoland" target="_blank" rel="noopener">indiegogo.com/creators/kbcodepoland <span aria-hidden="true">↗</span></a></dd>
             </div>
           </dl>
@@ -329,28 +331,29 @@
           </g>
         </svg>
         <p class="colophon-name">KBCODE sp.&nbsp;z&nbsp;o.o.</p>
-        <p class="colophon-line">Charting presence since MMXXIV.</p>
+        <p class="colophon-line" data-i18n="colophon.line">Charting presence since MMXXIV.</p>
       </div>
       <div>
-        <p class="colophon-label">Set in</p>
+        <p class="colophon-label" data-i18n="colophon.setIn">Set in</p>
         <p>Fraunces · Albert Sans · JetBrains Mono</p>
       </div>
       <div>
-        <p class="colophon-label">Drawn in</p>
-        <p>Kraków, Polska — 50.0647°N&nbsp;19.9450°E</p>
+        <p class="colophon-label" data-i18n="colophon.drawnIn">Drawn in</p>
+        <p data-i18n="colophon.drawnInValue">Kraków, Polska — 50.0647°N&nbsp;19.9450°E</p>
       </div>
       <div>
-        <p class="colophon-label">Edition</p>
+        <p class="colophon-label" data-i18n="colophon.edition">Edition</p>
         <p>Field Circular № 001 · MMXXVI</p>
       </div>
     </div>
     <div class="rule rule-bottom" aria-hidden="true">
       <span class="rule-line"></span>
-      <span class="rule-tick">— END OF DOCUMENT —</span>
+      <span class="rule-tick" data-i18n="colophon.endOfDoc">— END OF DOCUMENT —</span>
       <span class="rule-line"></span>
     </div>
   </footer>
 
+  <script src="i18n.js" defer></script>
   <script src="main.js" defer></script>
 </body>
 </html>

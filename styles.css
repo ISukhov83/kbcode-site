@@ -196,6 +196,49 @@ button { font: inherit; color: inherit; background: none; border: 0; cursor: poi
 .nav-cta::after { display: none; }
 .nav-cta:hover { background: var(--ink); color: var(--paper) !important; }
 
+.nav-cluster {
+  display: flex;
+  align-items: center;
+  gap: 1.4rem;
+  flex-wrap: wrap;
+}
+
+.lang-switch {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  letter-spacing: 0.12em;
+  color: var(--ink-faint);
+  padding-left: 1.1rem;
+  border-left: 1px solid var(--rule-strong);
+}
+.lang-switch button {
+  font: inherit;
+  letter-spacing: inherit;
+  color: var(--ink-faint);
+  background: transparent;
+  border: 0;
+  padding: 0.25rem 0.1rem;
+  cursor: pointer;
+  text-transform: uppercase;
+  transition: color 0.25s var(--ease);
+  position: relative;
+}
+.lang-switch button:hover { color: var(--ink); }
+.lang-switch button[aria-pressed="true"] {
+  color: var(--ink);
+}
+.lang-switch button[aria-pressed="true"]::after {
+  content: "";
+  position: absolute;
+  left: 0; right: 0;
+  bottom: 0.05rem;
+  height: 1px;
+  background: var(--brass);
+}
+
 /* deco rule */
 .rule {
   display: flex;
