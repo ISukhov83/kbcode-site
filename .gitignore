@@ -10,6 +10,11 @@ kbcode-hero-*.png
 kbcode-instrument.png
 kbcode-mobile.png
 kbcode-tiers.png
+verify-*.png
+
+# Lighthouse audit artefacts
+lighthouse-*.json
+lighthouse-*.html
 
 # Reference and planning artefacts (kept locally, not shipped)
 *.mhtml

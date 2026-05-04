@@ -822,7 +822,7 @@ img.brand-mark {
   transition: color 0.3s var(--ease), transform 0.3s var(--ease);
 }
 
-.features h4 {
+.features h3 {
   font-family: var(--font-display);
   font-size: 1.4rem;
   font-weight: 400;
@@ -928,7 +928,7 @@ img.brand-mark {
   font-size: 0.7rem;
   letter-spacing: 0.16em;
   text-transform: uppercase;
-  color: var(--ink-faint);
+  color: var(--ink-soft);
   align-self: center;
 }
 .card-channels dd {
@@ -990,7 +990,7 @@ img.brand-mark {
   font-size: 0.66rem;
   letter-spacing: 0.18em;
   text-transform: uppercase;
-  color: var(--ink-faint);
+  color: var(--ink-soft);
   margin-bottom: 0.5rem;
 }
 .colophon-grid > div p:not(.colophon-label):not(.colophon-name):not(.colophon-line) {
