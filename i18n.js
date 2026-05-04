@@ -57,7 +57,7 @@
       'instrument.role2.title': 'Awatar',
       'instrument.role2.body': 'Ciało w terenie — wyposażone, zweryfikowane, opłacane przez platformę. Odbiera polecenia Operatora, przekazuje obraz, dźwięk, znaki.',
       'instrument.role3.title': 'Platforma',
-      'instrument.role3.body': 'Bezpieczny dwukierunkowy portfel, tłumaczenie AI, transmisja wideo z opóźnieniem poniżej sekundy, planowanie tras, weryfikacja i rozjemstwo. Niewidoczna konstrukcja spinająca obie strony.',
+      'instrument.role3.body': 'Bezpieczny dwukierunkowy portfel. Niewidoczna konstrukcja spinająca obie strony.',
 
       'apparatus.no': 'Notatka Terenowa № 03 — Aparat',
       'apparatus.h2': 'Co jest w plecaku.',
@@ -142,7 +142,7 @@
       'instrument.role2.title': 'Аватар',
       'instrument.role2.body': 'Тіло на місці — споряджене, перевірене, оплачене платформою. Отримує підказки Оператора, передає сцену, звук і знаки.',
       'instrument.role3.title': 'Платформа',
-      'instrument.role3.body': 'Захищений двосторонній гаманець, ШІ‑переклад, відеотрансляція із субсекундною затримкою, побудова маршрутів, перевірка та арбітраж. Невидимий апарат, що тримає пару разом.',
+      'instrument.role3.body': 'Захищений двосторонній гаманець. Невидимий апарат, що тримає пару разом.',
 
       'apparatus.no': 'Польова Нотатка № 03 — Апарат',
       'apparatus.h2': 'Що в наборі.',
