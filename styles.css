@@ -275,7 +275,7 @@ button { font: inherit; color: inherit; background: none; border: 0; cursor: poi
 }
 
 .hero h1.display {
-  font-size: clamp(2.6rem, 6.4vw, 6rem);
+  font-size: clamp(2rem, 4.4vw, 4.4rem);
 }
 .hero h1 em {
   font-style: italic;
