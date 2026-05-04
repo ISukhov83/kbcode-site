@@ -21,7 +21,7 @@
       'nav.dispatch': 'Wyślij depeszę',
 
       'hero.eyebrow': 'Sporządzono w Krakowie, Polska — Wydanie Pierwsze',
-      'hero.h1': 'Mapujemy świat<br>dla tych, którzy<br><em>nie mogą</em> ruszyć go sami.',
+      'hero.h1': 'Stwórz własną<br>niezapomnianą<br>wirtualną <em>odyseję</em>.',
       'hero.lede': '<span class="drop">K</span>BCODE Poland to studio software, które buduje <strong>Avatar Platform</strong> — sieć telepresence w czasie rzeczywistym, która zamienia każdą ulicę, szczyt i wybrzeże w miejsce dostępne z dowolnego punktu Ziemi.',
       'hero.cta.primary': 'Otwórz atlas',
       'hero.cta.ghost': 'Wyślij depeszę',
@@ -106,7 +106,7 @@
       'nav.dispatch': 'Надіслати депешу',
 
       'hero.eyebrow': 'Укладено в Кракові, Польща — Перше Видання',
-      'hero.h1': 'Картуємо світ<br>для тих, хто<br><em>не може</em> пройти його сам.',
+      'hero.h1': 'Створи власну<br>незабутню<br>віртуальну <em>одіссею</em>.',
       'hero.lede': '<span class="drop">К</span>BCODE Poland — софтверна студія, що створює <strong>Avatar Platform</strong>: мережу людської телеприсутності в реальному часі, яка перетворює будь‑яку вулицю, вершину чи узбережжя на місце, куди можна потрапити з будь‑якої точки Землі.',
       'hero.cta.primary': 'Відкрити атлас',
       'hero.cta.ghost': 'Надіслати депешу',
