@@ -450,13 +450,24 @@ img.brand-mark {
   margin: 0;
 }
 .globe-frame {
-  width: min(100%, 540px);
+  width: min(100%, 560px);
   aspect-ratio: 400 / 280;
   margin: 0 auto;
   color: var(--ink);
   position: relative;
 }
+.map-bg {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
+  mix-blend-mode: multiply;
+}
 .globe {
+  position: absolute;
+  inset: 0;
   width: 100%;
   height: 100%;
   display: block;
