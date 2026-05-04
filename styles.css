@@ -372,9 +372,9 @@ button { font: inherit; color: inherit; background: none; border: 0; cursor: poi
 
 .hero-metrics {
   margin-top: 3rem;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 1.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem 2.5rem;
   border-top: 1px solid var(--rule);
   padding-top: 1.4rem;
 }
@@ -392,9 +392,7 @@ button { font: inherit; color: inherit; background: none; border: 0; cursor: poi
   font-size: 1.05rem;
   font-variation-settings: "opsz" 24;
   color: var(--ink);
-}
-@media (max-width: 600px) {
-  .hero-metrics { grid-template-columns: 1fr; gap: 1rem; }
+  white-space: nowrap;
 }
 
 /* hero figure: globe + caption */
