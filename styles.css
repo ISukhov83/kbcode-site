@@ -450,8 +450,8 @@ img.brand-mark {
   margin: 0;
 }
 .globe-frame {
-  width: min(100%, 480px);
-  aspect-ratio: 1 / 1;
+  width: min(100%, 540px);
+  aspect-ratio: 400 / 280;
   margin: 0 auto;
   color: var(--ink);
   position: relative;
